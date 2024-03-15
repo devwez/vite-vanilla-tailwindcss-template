@@ -6,10 +6,6 @@ const outDir = resolve(__dirname, "dist");
 
 export default defineConfig({
     root,
-    optimizeDeps: {
-        include: ["linked-dep"],
-    },
-
     build: {
         outDir,
         emptyOutDir: true,
